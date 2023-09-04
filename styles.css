@@ -13,12 +13,6 @@
 body {
     --white: #fff;
     --snow: color(display-p3 170% 170% 170%);
-    --red: color(display-p3 170% 110% 110%);
-    --yellow: color(display-p3 170% 170% 110%);
-    --green: color(display-p3 110% 170% 110%);
-    --cyan: color(display-p3 110% 170% 170%);
-    --blue: color(display-p3 110% 110% 170%);
-    --pink: color(display-p3 170% 110% 170%);
     
     font-family: Georgia;
     background: var(--white);
@@ -73,10 +67,26 @@ hr {
 }
 
 .colors {
+    --red: color(display-p3 170% 110% 110%);
+    --yellow: color(display-p3 170% 170% 110%);
+    --green: color(display-p3 110% 170% 110%);
+    --cyan: color(display-p3 110% 170% 170%);
+    --blue: color(display-p3 110% 110% 170%);
+    --pink: color(display-p3 170% 110% 170%);
+
     display: flex;
     justify-content: center;
     margin-bottom: 24px;
     margin-top: 24px;
+}
+
+.colors:hover {
+    --red: color(display-p3 170% 0% 0%);
+    --yellow: color(display-p3 170% 170% 0%);
+    --green: color(display-p3 0% 170% 0%);
+    --cyan: color(display-p3 0% 170% 170%);
+    --blue: color(display-p3 0% 0% 170%);
+    --pink: color(display-p3 170% 0% 170%);
 }
 
 .colors * + * {
