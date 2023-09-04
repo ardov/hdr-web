@@ -1,6 +1,6 @@
 body {
     font-family: Georgia;
-    --white: #9b9b9b;
+    --white: #fff;
     --snow: color(display-p3 170% 170% 170%);
     --red: color(display-p3 170% 100% 100%);
     --yellow: color(display-p3 170% 170% 100%);
@@ -29,6 +29,7 @@ body {
     text-align: center;
     padding: 56px 48px;
     max-width: 800px;
+    margin: 0 auto;
   }
   
   h1,
